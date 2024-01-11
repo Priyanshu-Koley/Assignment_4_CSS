@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Image div 1 */
+.image1 {
+    width: 80vw;
+    height: 190px;
+}
+/* Image div 2 */
+.image2 {
+    width: 80vw;
+    height: 210px;
+}
+/* Image div 3 */
+.image3{
+    display: flex;
+    justify-content: center;
+}
+
+/* Image 1 container */
+.image1-container{
+    border: 3px solid;
+    margin: 50px 0px 0px 0px;
+}
+/* Image 2 container */
+.image2-container{
+    border: 3px solid;
+    margin: 50px 0px 0px 0px;
+}
+/* Image 3 container */
+.image3-container{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0px 5px 0px;
+}
+
+/* Image text of 1 and 2 */
+.image1-text, .image2-text{
+    margin: 5px 10px;
+    font-size: 23px;
+}
+/* Image text of 3 */
+.image3-text{
+    margin: 5px 10px;
+    align-self: flex-start;
+    font-size: 23px;
+}
+
+/* Image 1 and 2 */
+.image1 img,
+.image2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Image 1 */
+.image1 img {
+    object-position: top;
+    height: 190px;
+}
+/* Image 2 */
+.image2 img {
+    object-position: bottom;
+    height: 210px;
+}
+/* Image 3 */
+.image3 img{
+    width: 500px;
+    height: 300px;
+}
